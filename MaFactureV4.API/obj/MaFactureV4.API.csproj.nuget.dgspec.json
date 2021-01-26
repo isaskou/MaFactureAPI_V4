@@ -1,0 +1,220 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\MaFactureV4.API\\MaFactureV4.API.csproj": {}
+  },
+  "projects": {
+    "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\isabe\\.nuget\\packages\\",
+        "outputPath": "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\isabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\TFTic\\Heroes\\NetAngular2020_ToolsConnection-master\\NetAngular2020_ToolsConnection-master\\Tools.Connection\\bin\\Release": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\Toolbox\\Toolbox.csproj": {
+                "projectPath": "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\Toolbox\\Toolbox.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\MaFactureV4.API\\MaFactureV4.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\MaFactureV4.API\\MaFactureV4.API.csproj",
+        "projectName": "MaFactureV4.API",
+        "projectPath": "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\MaFactureV4.API\\MaFactureV4.API.csproj",
+        "packagesPath": "C:\\Users\\isabe\\.nuget\\packages\\",
+        "outputPath": "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\MaFactureV4.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\isabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\TFTic\\Heroes\\NetAngular2020_ToolsConnection-master\\NetAngular2020_ToolsConnection-master\\Tools.Connection\\bin\\Release": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\Toolbox\\Toolbox.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\Toolbox\\Toolbox.csproj",
+        "projectName": "Toolbox",
+        "projectPath": "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\Toolbox\\Toolbox.csproj",
+        "packagesPath": "C:\\Users\\isabe\\.nuget\\packages\\",
+        "outputPath": "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\Toolbox\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\isabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\TFTic\\Heroes\\NetAngular2020_ToolsConnection-master\\NetAngular2020_ToolsConnection-master\\Tools.Connection\\bin\\Release": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

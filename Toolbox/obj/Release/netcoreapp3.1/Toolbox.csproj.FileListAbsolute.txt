@@ -1,0 +1,9 @@
+D:\TFTic\LABO_Projet\MaFacture_V4\MaFactureV4.API\Toolbox\bin\Release\netcoreapp3.1\Toolbox.deps.json
+D:\TFTic\LABO_Projet\MaFacture_V4\MaFactureV4.API\Toolbox\bin\Release\netcoreapp3.1\Toolbox.dll
+D:\TFTic\LABO_Projet\MaFacture_V4\MaFactureV4.API\Toolbox\bin\Release\netcoreapp3.1\Toolbox.pdb
+D:\TFTic\LABO_Projet\MaFacture_V4\MaFactureV4.API\Toolbox\obj\Release\netcoreapp3.1\Toolbox.AssemblyInfoInputs.cache
+D:\TFTic\LABO_Projet\MaFacture_V4\MaFactureV4.API\Toolbox\obj\Release\netcoreapp3.1\Toolbox.AssemblyInfo.cs
+D:\TFTic\LABO_Projet\MaFacture_V4\MaFactureV4.API\Toolbox\obj\Release\netcoreapp3.1\Toolbox.csproj.CoreCompileInputs.cache
+D:\TFTic\LABO_Projet\MaFacture_V4\MaFactureV4.API\Toolbox\obj\Release\netcoreapp3.1\Toolbox.dll
+D:\TFTic\LABO_Projet\MaFacture_V4\MaFactureV4.API\Toolbox\obj\Release\netcoreapp3.1\Toolbox.pdb
+D:\TFTic\LABO_Projet\MaFacture_V4\MaFactureV4.API\Toolbox\obj\Release\netcoreapp3.1\Toolbox.csprojAssemblyReference.cache
