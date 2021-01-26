@@ -1,0 +1,9 @@
+﻿CREATE FUNCTION [dbo].[SF_GeneratePWD]
+(
+	@pwd nvarchar(58)
+)
+RETURNS VARBINARY(32)
+AS
+BEGIN
+	RETURN HASHBYTES ('SHA2_256', @pwd)
+END

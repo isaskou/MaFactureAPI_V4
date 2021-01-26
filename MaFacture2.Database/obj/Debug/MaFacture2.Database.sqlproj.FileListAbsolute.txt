@@ -1,0 +1,10 @@
+D:\TFTic\LABO_Projet\DataBase\MaFacture2.Database\bin\Debug\MaFacture2.Database.dacpac
+D:\TFTic\LABO_Projet\DataBase\MaFacture2.Database\bin\Debug\MaFacture2.Database.dll
+D:\TFTic\LABO_Projet\DataBase\MaFacture2.Database\bin\Debug\MaFacture2.Database.pdb
+D:\TFTic\LABO_Projet\DataBase\MaFacture2.Database\obj\Debug\MaFacture2.Database.sqlprojAssemblyReference.cache
+D:\TFTic\LABO_Projet\DataBase\MaFacture2.Database\obj\Debug\Model.xml
+D:\TFTic\LABO_Projet\DataBase\MaFacture2.Database\obj\Debug\refactor.xml
+D:\TFTic\LABO_Projet\DataBase\MaFacture2.Database\obj\Debug\postdeploy.sql
+D:\TFTic\LABO_Projet\DataBase\MaFacture2.Database\obj\Debug\predeploy.sql
+D:\TFTic\LABO_Projet\DataBase\MaFacture2.Database\obj\Debug\MaFacture2.Database.dll
+D:\TFTic\LABO_Projet\DataBase\MaFacture2.Database\obj\Debug\MaFacture2.Database.pdb
