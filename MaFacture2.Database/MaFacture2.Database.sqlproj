@@ -71,6 +71,8 @@
     <Folder Include="View\User" />
     <Folder Include="scripts" />
     <Folder Include="StoredProcedure\Contact" />
+    <Folder Include="StoredProcedure\Client" />
+    <Folder Include="View\Contact" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Functions\User\SF_GenerateSalt.sql" />
@@ -110,10 +112,18 @@
     <Build Include="StoredProcedure\Contact\SP_GetBySurname.sql" />
     <Build Include="StoredProcedure\Contact\SP_UpdateContact.sql" />
     <Build Include="StoredProcedure\Contact\SP-GetByMail.sql" />
+    <Build Include="StoredProcedure\Client\SP_AddClient.sql" />
+    <Build Include="StoredProcedure\Client\SP_UpdateClient.sql" />
+    <Build Include="StoredProcedure\Client\SP_GetClientById.sql" />
+    <Build Include="StoredProcedure\Client\SP_GetClientBySociete.sql" />
+    <Build Include="StoredProcedure\Client\SP_GetClientByTVA.sql" />
+    <Build Include="StoredProcedure\Client\SP_GetClientByContactId.sql" />
+    <Build Include="View\Contact\V_Client.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="scripts\Script.AddDefaultUser.sql" />
     <PostDeploy Include="scripts\Script.PostDeploymentGeneral.sql" />
+    <None Include="MaFacture2_1.Database.publish.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="scripts\Script.AddDefaultRoles.sql" />
