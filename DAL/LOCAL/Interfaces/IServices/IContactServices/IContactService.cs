@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DAL.LOCAL.Interfaces.IServices
+namespace DAL.LOCAL.Interfaces.IServices.IContactServices
 {
     public interface IContactService : IService<ContactModel>
     {

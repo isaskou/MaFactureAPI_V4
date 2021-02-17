@@ -10,3 +10,15 @@ D:\TFTic\LABO_Projet\MaFacture_V4\MaFactureV4.API\DAL\obj\Debug\netcoreapp3.1\DA
 D:\TFTic\LABO_Projet\MaFacture_V4\MaFactureV4.API\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
 D:\TFTic\LABO_Projet\MaFacture_V4\MaFactureV4.API\DAL\obj\Debug\netcoreapp3.1\DAL.dll
 D:\TFTic\LABO_Projet\MaFacture_V4\MaFactureV4.API\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+D:\TFTic\NET_ANGULAR\LABO_Projet\MaFacture_V4\MaFactureV4.API\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+D:\TFTic\NET_ANGULAR\LABO_Projet\MaFacture_V4\MaFactureV4.API\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+D:\TFTic\NET_ANGULAR\LABO_Projet\MaFacture_V4\MaFactureV4.API\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\TFTic\NET_ANGULAR\LABO_Projet\MaFacture_V4\MaFactureV4.API\DAL\bin\Debug\netcoreapp3.1\Toolbox.dll
+D:\TFTic\NET_ANGULAR\LABO_Projet\MaFacture_V4\MaFactureV4.API\DAL\bin\Debug\netcoreapp3.1\Toolbox.pdb
+D:\TFTic\NET_ANGULAR\LABO_Projet\MaFacture_V4\MaFactureV4.API\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+D:\TFTic\NET_ANGULAR\LABO_Projet\MaFacture_V4\MaFactureV4.API\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+D:\TFTic\NET_ANGULAR\LABO_Projet\MaFacture_V4\MaFactureV4.API\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+D:\TFTic\NET_ANGULAR\LABO_Projet\MaFacture_V4\MaFactureV4.API\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+D:\TFTic\NET_ANGULAR\LABO_Projet\MaFacture_V4\MaFactureV4.API\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+D:\TFTic\NET_ANGULAR\LABO_Projet\MaFacture_V4\MaFactureV4.API\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+D:\TFTic\NET_ANGULAR\LABO_Projet\MaFacture_V4\MaFactureV4.API\DAL\obj\Debug\netcoreapp3.1\DAL.pdb

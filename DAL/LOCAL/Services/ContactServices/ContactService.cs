@@ -1,5 +1,5 @@
 ﻿using DAL.DAO.Interface;
-using DAL.LOCAL.Interfaces.IServices;
+using DAL.LOCAL.Interfaces.IServices.IContactServices;
 using DAL.LOCAL.Mapper;
 using DAL.LOCAL.Models;
 using System;
@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DAL.LOCAL.Services
+namespace DAL.LOCAL.Services.ContactServices
 {
     public class ContactService : IContactService
     {

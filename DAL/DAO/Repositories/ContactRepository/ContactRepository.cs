@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using Toolbox;
 
-namespace DAL.DAO.Repositories
+namespace DAL.DAO.Repositories.ContactRepository
 {
     public class ContactRepository : RepositoryBase, IContactRepository
     {
@@ -27,42 +27,42 @@ namespace DAL.DAO.Repositories
         public IEnumerable<ContactDTO> GetAll()
         {
             Command cmd = new Command("SELECT * FROM Contact", false);
-            return _connection.ExecuteReader(cmd, ContactConverter.Convert);
+            return _connection.ExecuteReader(cmd, ContactConverter.ContactConvert);
         }
 
         public ContactDTO GetByFirstName(string firstName)
         {
             Command cmd = new Command("SP_GetByFirstName", true);
             cmd.AddParameters("Prenom", firstName);
-            return _connection.ExecuteReader(cmd, ContactConverter.Convert).FirstOrDefault();
+            return _connection.ExecuteReader(cmd, ContactConverter.ContactConvert).FirstOrDefault();
         }
 
         public ContactDTO GetByMail(string email)
         {
             Command cmd = new Command("SP_GetByMail", true);
             cmd.AddParameters("Email", email);
-            return _connection.ExecuteReader(cmd, ContactConverter.Convert).FirstOrDefault();
+            return _connection.ExecuteReader(cmd, ContactConverter.ContactConvert).FirstOrDefault();
         }
 
         public ContactDTO GetByName(string nom)
         {
             Command cmd = new Command("SP_GetByName", true);
             cmd.AddParameters("Nom", nom);
-            return _connection.ExecuteReader(cmd, ContactConverter.Convert).FirstOrDefault();
+            return _connection.ExecuteReader(cmd, ContactConverter.ContactConvert).FirstOrDefault();
         }
 
         public ContactDTO GetBySurname(string surnom)
         {
             Command cmd = new Command("SP_GetBySurname", true);
             cmd.AddParameters("Surnom", surnom);
-            return _connection.ExecuteReader(cmd, ContactConverter.Convert).FirstOrDefault();
+            return _connection.ExecuteReader(cmd, ContactConverter.ContactConvert).FirstOrDefault();
         }
 
         public ContactDTO GetOne(int id)
         {
             Command cmd = new Command("SP_GetById", true);
             cmd.AddParameters("id", id);
-            return _connection.ExecuteReader(cmd, ContactConverter.Convert).FirstOrDefault();
+            return _connection.ExecuteReader(cmd, ContactConverter.ContactConvert).FirstOrDefault();
 
         }
 

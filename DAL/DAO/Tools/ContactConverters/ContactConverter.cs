@@ -8,7 +8,7 @@ namespace DAL.DAO.Tools
 {
     public static class ContactConverter
     {
-        public static ContactDTO Convert(IDataReader reader)
+        public static ContactDTO ContactConvert(IDataReader reader)
         {
             return new ContactDTO
             {

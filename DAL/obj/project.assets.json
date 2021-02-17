@@ -1027,11 +1027,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\DAL\\DAL.csproj",
+      "projectUniqueName": "D:\\TFTic\\NET_ANGULAR\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\DAL\\DAL.csproj",
+      "projectPath": "D:\\TFTic\\NET_ANGULAR\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\isabe\\.nuget\\packages\\",
-      "outputPath": "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\DAL\\obj\\",
+      "outputPath": "D:\\TFTic\\NET_ANGULAR\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\isabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1049,8 +1049,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\Toolbox\\Toolbox.csproj": {
-              "projectPath": "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\Toolbox\\Toolbox.csproj"
+            "D:\\TFTic\\NET_ANGULAR\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\Toolbox\\Toolbox.csproj": {
+              "projectPath": "D:\\TFTic\\NET_ANGULAR\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\Toolbox\\Toolbox.csproj"
             }
           }
         }
