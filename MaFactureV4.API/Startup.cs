@@ -15,6 +15,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DAL.DAO.Repositories.ContactRepository;
+using DAL.LOCAL.Interfaces.IServices.IContactServices;
+using DAL.LOCAL.Services.ContactServices;
+using DAL.DAO.Interface.IContactRepositories;
 
 namespace MaFactureV4.API
 {
@@ -37,8 +41,14 @@ namespace MaFactureV4.API
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MaFactureV4.API", Version = "v1" });
             });
 
+            services.AddCors();
+
+
             services.AddScoped<IContactRepository, ContactRepository>();
             services.AddScoped<IContactService, ContactService>();
+
+            services.AddScoped<IClientRepository, ClientRepository>();
+            services.AddScoped<IClientService, ClientService>();
 
         }
 
@@ -53,6 +63,9 @@ namespace MaFactureV4.API
             }
 
             app.UseHttpsRedirection();
+
+            app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
 
             app.UseRouting();
 

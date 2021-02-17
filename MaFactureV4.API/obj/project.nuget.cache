@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nP8+OxnqqOu0oHYf/Hv4UdujPQ1illDJugguDaxBVD32rYC0x0+XrjxeQtY8RO8T45VwzPJmnp3uEN8Zqi3VbQ==",
+  "dgSpecHash": "Ywk2gDXg9ITm+R8+E8piC/EK6ECmV/mgPUHCw9FtH/V2d0zZSPstTHm45GDebYCcDVVufMIy66He1/gv/wQUsQ==",
   "success": true,
-  "projectFilePath": "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\MaFactureV4.API\\MaFactureV4.API.csproj",
+  "projectFilePath": "D:\\TFTic\\NET_ANGULAR\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\MaFactureV4.API\\MaFactureV4.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\isabe\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.1\\microsoft.aspnetcore.authentication.jwtbearer.5.0.1.nupkg.sha512",
     "C:\\Users\\isabe\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.1\\microsoft.aspnetcore.authentication.openidconnect.5.0.1.nupkg.sha512",

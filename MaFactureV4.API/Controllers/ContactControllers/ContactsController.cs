@@ -1,4 +1,5 @@
 ﻿using DAL.LOCAL.Interfaces.IServices;
+using DAL.LOCAL.Interfaces.IServices.IContactServices;
 using DAL.LOCAL.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -7,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MaFactureV4.API.Controllers
+namespace MaFactureV4.API.Controllers.ContactControllers
 {
     [Route("api/[controller]")]
     [ApiController]
