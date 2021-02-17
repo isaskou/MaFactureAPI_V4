@@ -13,8 +13,8 @@
 	Pays nvarchar(50),
 
 	CONSTRAINT PK_ContactId 
-		PRIMARY KEY (ContactId),
+		PRIMARY KEY (ContactId)
 
-	CONSTRAINT CK_Contact_Email
-		CHECK (Email LIKE '%@%.%')
+	--CONSTRAINT CK_Contact_Email
+	--	CHECK (Email LIKE '%@%.%')
 )

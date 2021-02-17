@@ -15,7 +15,7 @@ namespace DAL.DAO.Tools
                 ClientId = (int)reader["ClientId"],
                 NomSociete = reader["NomSociete"].ToString(),
                 NumTva = reader["NumTva"].ToString(),
-                //ContactId = (int)reader["ContactId"]
+                ContactId = (int)reader["ContactId"]
             };
         }
     }

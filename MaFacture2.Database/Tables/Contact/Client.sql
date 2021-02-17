@@ -8,7 +8,5 @@
 	CONSTRAINT PK_ClientId PRIMARY KEY (ClientId),
 	CONSTRAINT FK_Client_Contact 
 		FOREIGN KEY (ContactId) 
-		REFERENCES Contact(ContactId) 
-		ON DELETE CASCADE 
-		ON UPDATE CASCADE
+		REFERENCES Contact(ContactId)
 );

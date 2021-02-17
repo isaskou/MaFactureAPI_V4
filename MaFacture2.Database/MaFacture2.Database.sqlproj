@@ -119,6 +119,7 @@
     <Build Include="StoredProcedure\Client\SP_GetClientByTVA.sql" />
     <Build Include="StoredProcedure\Client\SP_GetClientByContactId.sql" />
     <Build Include="View\Contact\V_Client.sql" />
+    <Build Include="StoredProcedure\Client\SP_GetAllClientWithContact.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="scripts\Script.AddDefaultUser.sql" />

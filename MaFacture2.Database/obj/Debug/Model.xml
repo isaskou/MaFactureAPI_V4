@@ -527,22 +527,6 @@
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="27" />
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="28" />
 		</Element>
-		<Element Type="SqlCheckConstraint" Name="[dbo].[CK_Contact_Email]">
-			<Property Name="CheckExpressionScript">
-				<Value><![CDATA[Email LIKE '%@%.%']]></Value>
-			</Property>
-			<Relationship Name="CheckExpressionDependencies">
-				<Entry>
-					<References Name="[dbo].[Contact].[Email]" />
-				</Entry>
-			</Relationship>
-			<Relationship Name="DefiningTable">
-				<Entry>
-					<References Name="[dbo].[Contact]" />
-				</Entry>
-			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="29" />
-		</Element>
 		<Element Type="SqlCheckConstraint" Name="[dbo].[CK_Date_Valide]">
 			<Property Name="CheckExpressionScript">
 				<Value><![CDATA[YEAR(DateCaisse)>2020]]></Value>
@@ -589,7 +573,7 @@
 					<References Name="[dbo].[Facture]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="30" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="29" />
 		</Element>
 		<Element Type="SqlCheckConstraint" Name="[dbo].[CK_DatePaiement]">
 			<Property Name="CheckExpressionScript">
@@ -605,7 +589,7 @@
 					<References Name="[dbo].[Facture]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="31" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="30" />
 		</Element>
 		<Element Type="SqlCheckConstraint" Name="[dbo].[CK_EmailShop]">
 			<Property Name="CheckExpressionScript">
@@ -621,7 +605,7 @@
 					<References Name="[dbo].[Magasin]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="32" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="31" />
 		</Element>
 		<Element Type="SqlCheckConstraint" Name="[dbo].[CK_EmailUser]">
 			<Property Name="CheckExpressionScript">
@@ -637,7 +621,7 @@
 					<References Name="[dbo].[Utilisateur]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="33" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="32" />
 		</Element>
 		<Element Type="SqlCheckConstraint" Name="[dbo].[CK_MargeComptoir]">
 			<Property Name="CheckExpressionScript">
@@ -653,7 +637,7 @@
 					<References Name="[dbo].[Marge]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="34" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="33" />
 		</Element>
 		<Element Type="SqlCheckConstraint" Name="[dbo].[CK_MargeHoreca]">
 			<Property Name="CheckExpressionScript">
@@ -669,7 +653,7 @@
 					<References Name="[dbo].[Marge]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="35" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="34" />
 		</Element>
 		<Element Type="SqlCheckConstraint" Name="[dbo].[CK_Montant_Sup0]">
 			<Property Name="CheckExpressionScript">
@@ -717,7 +701,7 @@
 					<References Name="[dbo].[Magasin]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="36" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="35" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[Client]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -794,8 +778,8 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="36" />
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="37" />
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="38" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[Contact]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -983,8 +967,7 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="39" />
-			<AttachedAnnotation Disambiguator="29" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="38" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[Contact_Magasin]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -1027,9 +1010,9 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="39" />
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="40" />
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="41" />
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="42" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[EtatFC]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -1226,7 +1209,7 @@
 								</Element>
 							</Entry>
 						</Relationship>
-						<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="43" />
+						<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="42" />
 					</Element>
 				</Entry>
 			</Relationship>
@@ -1235,13 +1218,13 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="43" />
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="44" />
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="45" />
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="46" />
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="47" />
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="48" />
+			<AttachedAnnotation Disambiguator="29" />
 			<AttachedAnnotation Disambiguator="30" />
-			<AttachedAnnotation Disambiguator="31" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[FamilleProduit]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -1343,8 +1326,6 @@
 			<AttachedAnnotation Disambiguator="25" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_Client_Contact]">
-			<Property Name="OnUpdateAction" Value="1" />
-			<Property Name="OnDeleteAction" Value="1" />
 			<Relationship Name="Columns">
 				<Entry>
 					<References Name="[dbo].[Client].[ContactId]" />
@@ -1365,7 +1346,7 @@
 					<References Name="[dbo].[Contact]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="38" />
+			<AttachedAnnotation Disambiguator="37" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_ContactMagasin_ContactId]">
 			<Relationship Name="Columns">
@@ -1388,7 +1369,7 @@
 					<References Name="[dbo].[Contact]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="41" />
+			<AttachedAnnotation Disambiguator="40" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_ContactMagasin_MagasinId]">
 			<Relationship Name="Columns">
@@ -1411,7 +1392,7 @@
 					<References Name="[dbo].[Magasin]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="42" />
+			<AttachedAnnotation Disambiguator="41" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_Facture_ClientId]">
 			<Property Name="OnUpdateAction" Value="1" />
@@ -1435,7 +1416,7 @@
 					<References Name="[dbo].[Client]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="44" />
+			<AttachedAnnotation Disambiguator="43" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_Facture_EtatFC]">
 			<Property Name="OnUpdateAction" Value="1" />
@@ -1459,7 +1440,7 @@
 					<References Name="[dbo].[EtatFC]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="46" />
+			<AttachedAnnotation Disambiguator="45" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_Facture_MagasinId]">
 			<Property Name="OnUpdateAction" Value="1" />
@@ -1483,7 +1464,7 @@
 					<References Name="[dbo].[Magasin]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="47" />
+			<AttachedAnnotation Disambiguator="46" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_Facture_MoyensPaiement]">
 			<Relationship Name="Columns">
@@ -1506,7 +1487,7 @@
 					<References Name="[dbo].[MoyensPaiement]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="48" />
+			<AttachedAnnotation Disambiguator="47" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_Facture_TemplateFC]">
 			<Relationship Name="Columns">
@@ -1529,7 +1510,7 @@
 					<References Name="[dbo].[TemplateFC]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="45" />
+			<AttachedAnnotation Disambiguator="44" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_Fournisseur_Contact]">
 			<Property Name="OnUpdateAction" Value="1" />
@@ -1554,7 +1535,7 @@
 					<References Name="[dbo].[Contact]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="49" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="48" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_LigneFC_FactureId]">
 			<Relationship Name="Columns">
@@ -1577,7 +1558,7 @@
 					<References Name="[dbo].[Facture]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="50" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="49" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_LigneFC_ProductId]">
 			<Relationship Name="Columns">
@@ -1600,7 +1581,7 @@
 					<References Name="[dbo].[Produit]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="51" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="50" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_LigneFC_TypeVente]">
 			<Relationship Name="Columns">
@@ -1623,7 +1604,7 @@
 					<References Name="[dbo].[TypeVente]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="52" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="51" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_MagasinProduit_MagasinId]">
 			<Relationship Name="Columns">
@@ -1646,7 +1627,7 @@
 					<References Name="[dbo].[Magasin]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="53" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="52" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_MagasinProduit_ProductId]">
 			<Relationship Name="Columns">
@@ -1669,7 +1650,7 @@
 					<References Name="[dbo].[Produit]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="54" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="53" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_PaiementCaisse_CaisseId]">
 			<Relationship Name="Columns">
@@ -1692,7 +1673,7 @@
 					<References Name="[dbo].[Caisse]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="55" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="54" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_PaiementCaisse_Paiement]">
 			<Relationship Name="Columns">
@@ -1715,7 +1696,7 @@
 					<References Name="[dbo].[MoyensPaiement]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="56" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="55" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_ProductId]">
 			<Relationship Name="Columns">
@@ -1738,7 +1719,7 @@
 					<References Name="[dbo].[Produit]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="57" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="56" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_Produit_FamilleProduit]">
 			<Property Name="OnUpdateAction" Value="1" />
@@ -1762,7 +1743,7 @@
 					<References Name="[dbo].[FamilleProduit]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="58" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="57" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_Produit_FournisseurId]">
 			<Property Name="OnUpdateAction" Value="1" />
@@ -1787,7 +1768,7 @@
 					<References Name="[dbo].[Fournisseur]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="59" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="58" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_Produit_TauxTVA]">
 			<Property Name="OnUpdateAction" Value="1" />
@@ -1811,7 +1792,7 @@
 					<References Name="[dbo].[TauxTVA]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="60" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="59" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_Utilisateur_Role]">
 			<Relationship Name="Columns">
@@ -1834,7 +1815,7 @@
 					<References Name="[dbo].[Role]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="61" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="60" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_UtilisateurMagasin_MagasinId]">
 			<Relationship Name="Columns">
@@ -1857,7 +1838,7 @@
 					<References Name="[dbo].[Magasin]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="62" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="61" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_UtilisateurMagasin_UserId]">
 			<Relationship Name="Columns">
@@ -1880,7 +1861,7 @@
 					<References Name="[dbo].[Utilisateur]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="63" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="62" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[Fournisseur]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -1957,8 +1938,8 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="64" />
-			<AttachedAnnotation Disambiguator="49" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="63" />
+			<AttachedAnnotation Disambiguator="48" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[Ligne_Facture]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -2051,10 +2032,10 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="65" />
-			<AttachedAnnotation Disambiguator="51" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="64" />
 			<AttachedAnnotation Disambiguator="50" />
-			<AttachedAnnotation Disambiguator="52" />
+			<AttachedAnnotation Disambiguator="49" />
+			<AttachedAnnotation Disambiguator="51" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[Magasin]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -2265,9 +2246,9 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="66" />
-			<AttachedAnnotation Disambiguator="32" />
-			<AttachedAnnotation Disambiguator="36" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="65" />
+			<AttachedAnnotation Disambiguator="31" />
+			<AttachedAnnotation Disambiguator="35" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[Magasin_Produit]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -2310,9 +2291,9 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="67" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="66" />
+			<AttachedAnnotation Disambiguator="52" />
 			<AttachedAnnotation Disambiguator="53" />
-			<AttachedAnnotation Disambiguator="54" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[Marge]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -2410,10 +2391,10 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="68" />
-			<AttachedAnnotation Disambiguator="57" />
-			<AttachedAnnotation Disambiguator="35" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="67" />
+			<AttachedAnnotation Disambiguator="56" />
 			<AttachedAnnotation Disambiguator="34" />
+			<AttachedAnnotation Disambiguator="33" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[MoyensPaiement]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -2485,9 +2466,9 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="69" />
-			<AttachedAnnotation Disambiguator="56" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="68" />
 			<AttachedAnnotation Disambiguator="55" />
+			<AttachedAnnotation Disambiguator="54" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_Achat]">
 			<Relationship Name="ColumnSpecifications">
@@ -2534,7 +2515,7 @@
 					<References Name="[dbo].[Paiement_Caisse]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="69" />
+			<AttachedAnnotation Disambiguator="68" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_CaisseId]">
 			<Relationship Name="ColumnSpecifications">
@@ -2572,7 +2553,7 @@
 					<References Name="[dbo].[Client]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="37" />
+			<AttachedAnnotation Disambiguator="36" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_ContactId]">
 			<Relationship Name="ColumnSpecifications">
@@ -2591,7 +2572,7 @@
 					<References Name="[dbo].[Contact]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="39" />
+			<AttachedAnnotation Disambiguator="38" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_ContactMagasin]">
 			<Relationship Name="ColumnSpecifications">
@@ -2619,7 +2600,7 @@
 					<References Name="[dbo].[Contact_Magasin]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="40" />
+			<AttachedAnnotation Disambiguator="39" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_FactureId]">
 			<Relationship Name="ColumnSpecifications">
@@ -2638,7 +2619,7 @@
 					<References Name="[dbo].[Facture]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="43" />
+			<AttachedAnnotation Disambiguator="42" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_FournisseurId]">
 			<Relationship Name="ColumnSpecifications">
@@ -2657,7 +2638,7 @@
 					<References Name="[dbo].[Fournisseur]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="64" />
+			<AttachedAnnotation Disambiguator="63" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_LigneID]">
 			<Relationship Name="ColumnSpecifications">
@@ -2676,7 +2657,7 @@
 					<References Name="[dbo].[Ligne_Facture]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="65" />
+			<AttachedAnnotation Disambiguator="64" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_Magasin_Produit]">
 			<Relationship Name="ColumnSpecifications">
@@ -2704,7 +2685,7 @@
 					<References Name="[dbo].[Magasin_Produit]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="67" />
+			<AttachedAnnotation Disambiguator="66" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_MagasinID]">
 			<Relationship Name="ColumnSpecifications">
@@ -2723,7 +2704,7 @@
 					<References Name="[dbo].[Magasin]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="66" />
+			<AttachedAnnotation Disambiguator="65" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_MargeId]">
 			<Relationship Name="ColumnSpecifications">
@@ -2742,7 +2723,7 @@
 					<References Name="[dbo].[Marge]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="68" />
+			<AttachedAnnotation Disambiguator="67" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_ProductId]">
 			<Relationship Name="ColumnSpecifications">
@@ -2761,7 +2742,7 @@
 					<References Name="[dbo].[Produit]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="70" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="69" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_TemplateId]">
 			<Relationship Name="ColumnSpecifications">
@@ -2780,7 +2761,7 @@
 					<References Name="[dbo].[TemplateFC]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="71" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="70" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_UserId]">
 			<Relationship Name="ColumnSpecifications">
@@ -2799,7 +2780,7 @@
 					<References Name="[dbo].[Utilisateur]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="72" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="71" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_Utilisateur_Magasin]">
 			<Relationship Name="ColumnSpecifications">
@@ -2827,7 +2808,7 @@
 					<References Name="[dbo].[Utilisateur_Magasin]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="73" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="72" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[Produit]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -2939,10 +2920,10 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="70" />
-			<AttachedAnnotation Disambiguator="59" />
-			<AttachedAnnotation Disambiguator="60" />
+			<AttachedAnnotation Disambiguator="69" />
 			<AttachedAnnotation Disambiguator="58" />
+			<AttachedAnnotation Disambiguator="59" />
+			<AttachedAnnotation Disambiguator="57" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[Role]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -3675,6 +3656,80 @@ RETURN 0]]></Value>
 				<Property Name="StartLine" Value="1" />
 				<Property Name="StartColumn" Value="1" />
 				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[SP_CheckPassword]&#xD;&#xA;&#x9;@mail nvarchar(50),&#xD;&#xA;&#x9;@pwd nvarchar(50)&#xD;&#xA;&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[SP_GetAllClientWithContact]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+	SELECT cl.ClientId, co.Prenom, co.Nom, co.Surnom, co.Tel, co.Email, co.Rue, co.Num, co.CodePostal, co.Ville, co.Pays, cl.NomSociete, cl.NumTVA
+	FROM Client cl, Contact co
+	WHERE co.ContactId=cl.ContactId
+RETURN 0]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[Client]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Contact]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Client].[ClientId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Contact].[Prenom]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Contact].[Nom]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Contact].[Surnom]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Contact].[Tel]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Contact].[Email]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Contact].[Rue]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Contact].[Num]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Contact].[CodePostal]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Contact].[Ville]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Contact].[Pays]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Client].[NomSociete]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Client].[NumTVA]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Contact].[ContactId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Client].[ContactId]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="276" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[SP_GetAllClientWithContact]&#xD;&#xA;&#x9;&#xD;&#xA;AS" />
 			</Annotation>
 		</Element>
 		<Element Type="SqlProcedure" Name="[dbo].[SP_GetByFirstName]">
@@ -4582,80 +4637,6 @@ END]]></Value>
 				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[SP_UpdateContact]&#xD;&#xA;&#x9;@ContactId int,&#xD;&#xA;&#x9;@Prenom nvarchar(50),&#xD;&#xA;&#x9;@Nom nvarchar(50),&#xD;&#xA;&#x9;@Surnom nvarchar(50),&#xD;&#xA;&#x9;@Tel nvarchar(50),&#xD;&#xA;&#x9;@Email nvarchar(50),&#xD;&#xA;&#x9;@Rue nvarchar(50),&#xD;&#xA;&#x9;@Num nvarchar(50),&#xD;&#xA;&#x9;@CodePostal nvarchar(50),&#xD;&#xA;&#x9;@Ville nvarchar(50),&#xD;&#xA;&#x9;@Pays nvarchar(50)&#xD;&#xA;AS" />
 			</Annotation>
 		</Element>
-		<Element Type="SqlProcedure" Name="[dbo].[SP-GetAllClientWithContact]">
-			<Property Name="BodyScript">
-				<Value><![CDATA[
-	SELECT cl.ClientId, co.Prenom, co.Nom, co.Surnom, co.Tel, co.Email, co.Rue, co.Num, co.CodePostal, co.Ville, co.Pays, cl.NomSociete, cl.NumTVA
-	FROM Client cl, Contact co
-	WHERE co.ContactId=cl.ContactId
-RETURN 0]]></Value>
-			</Property>
-			<Property Name="IsAnsiNullsOn" Value="True" />
-			<Relationship Name="BodyDependencies">
-				<Entry>
-					<References Name="[dbo].[Client]" />
-				</Entry>
-				<Entry>
-					<References Name="[dbo].[Contact]" />
-				</Entry>
-				<Entry>
-					<References Name="[dbo].[Client].[ClientId]" />
-				</Entry>
-				<Entry>
-					<References Name="[dbo].[Contact].[Prenom]" />
-				</Entry>
-				<Entry>
-					<References Name="[dbo].[Contact].[Nom]" />
-				</Entry>
-				<Entry>
-					<References Name="[dbo].[Contact].[Surnom]" />
-				</Entry>
-				<Entry>
-					<References Name="[dbo].[Contact].[Tel]" />
-				</Entry>
-				<Entry>
-					<References Name="[dbo].[Contact].[Email]" />
-				</Entry>
-				<Entry>
-					<References Name="[dbo].[Contact].[Rue]" />
-				</Entry>
-				<Entry>
-					<References Name="[dbo].[Contact].[Num]" />
-				</Entry>
-				<Entry>
-					<References Name="[dbo].[Contact].[CodePostal]" />
-				</Entry>
-				<Entry>
-					<References Name="[dbo].[Contact].[Ville]" />
-				</Entry>
-				<Entry>
-					<References Name="[dbo].[Contact].[Pays]" />
-				</Entry>
-				<Entry>
-					<References Name="[dbo].[Client].[NomSociete]" />
-				</Entry>
-				<Entry>
-					<References Name="[dbo].[Client].[NumTVA]" />
-				</Entry>
-				<Entry>
-					<References Name="[dbo].[Contact].[ContactId]" />
-				</Entry>
-				<Entry>
-					<References Name="[dbo].[Client].[ContactId]" />
-				</Entry>
-			</Relationship>
-			<Relationship Name="Schema">
-				<Entry>
-					<References ExternalSource="BuiltIns" Name="[dbo]" />
-				</Entry>
-			</Relationship>
-			<Annotation Type="SysCommentsObjectAnnotation">
-				<Property Name="Length" Value="276" />
-				<Property Name="StartLine" Value="1" />
-				<Property Name="StartColumn" Value="1" />
-				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[SP-GetAllClientWithContact]&#xD;&#xA;&#x9;&#xD;&#xA;AS" />
-			</Annotation>
-		</Element>
 		<Element Type="SqlProcedure" Name="[dbo].[SP-GetByMail]">
 			<Property Name="BodyScript">
 				<Value><![CDATA[
@@ -4804,7 +4785,7 @@ RETURN 0]]></Value>
 								</Element>
 							</Entry>
 						</Relationship>
-						<AttachedAnnotation Disambiguator="71" />
+						<AttachedAnnotation Disambiguator="70" />
 						<AttachedAnnotation Disambiguator="3" />
 					</Element>
 				</Entry>
@@ -4991,9 +4972,9 @@ RETURN 0]]></Value>
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="72" />
-			<AttachedAnnotation Disambiguator="61" />
-			<AttachedAnnotation Disambiguator="33" />
+			<AttachedAnnotation Disambiguator="71" />
+			<AttachedAnnotation Disambiguator="60" />
+			<AttachedAnnotation Disambiguator="32" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[Utilisateur_Magasin]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -5036,9 +5017,9 @@ RETURN 0]]></Value>
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="73" />
-			<AttachedAnnotation Disambiguator="63" />
+			<AttachedAnnotation Disambiguator="72" />
 			<AttachedAnnotation Disambiguator="62" />
+			<AttachedAnnotation Disambiguator="61" />
 		</Element>
 		<Element Type="SqlView" Name="[dbo].[V_Client]">
 			<Property Name="QueryScript">

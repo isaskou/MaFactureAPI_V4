@@ -459,11 +459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\Toolbox\\Toolbox.csproj",
+      "projectUniqueName": "D:\\TFTic\\NET_ANGULAR\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\Toolbox\\Toolbox.csproj",
       "projectName": "Toolbox",
-      "projectPath": "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\Toolbox\\Toolbox.csproj",
+      "projectPath": "D:\\TFTic\\NET_ANGULAR\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\Toolbox\\Toolbox.csproj",
       "packagesPath": "C:\\Users\\isabe\\.nuget\\packages\\",
-      "outputPath": "D:\\TFTic\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\Toolbox\\obj\\",
+      "outputPath": "D:\\TFTic\\NET_ANGULAR\\LABO_Projet\\MaFacture_V4\\MaFactureV4.API\\Toolbox\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\isabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
